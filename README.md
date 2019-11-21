@@ -20,3 +20,6 @@
     数据库部分，所以表并没有进行严谨的设计，只作为Demo使用。
     
     由于我主修的是后端，所以前端实在不熟悉，只能说略有涉猎，希望有大佬看到了，前端后端不足之处，请指点批评。
+    
+  ## 作者微信
+  ![微信号: leisheng_yigeren](https://github.com/ls5822043/images/blob/master/qq_pic_merged_1574341919568.jpg)
