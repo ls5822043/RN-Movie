@@ -22,4 +22,4 @@
     由于我主修的是后端，所以前端实在不熟悉，只能说略有涉猎，希望有大佬看到了，前端后端不足之处，请指点批评。
     
   ## 作者微信
-  ![微信号: leisheng_yigeren](https://github.com/ls5822043/images/blob/master/qq_pic_merged_1574341919568.jpg)
+  <div align=center><img src="https://github.com/ls5822043/images/blob/master/qq_pic_merged_1574341919568.jpg" width="300" height="450" /></div>
