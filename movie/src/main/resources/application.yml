@@ -1,0 +1,38 @@
+
+mybatis:
+  mapper-locations: classpath:mappings/*.xml
+  check-config-location: true
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  jpa:
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+datasource:
+  druid:
+    url: jdbc:mysql://localhost:3306/db_movie?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123
+    filters: stat,slf4j
+    initialSize: 10
+    maxActive: 100
+    maxWait: 60000
+    minIdle: 5
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'x'
+    testWhileIdle: true
+    testOnBorrow: true
+    testOnReturn: true
+    poolPreparedStatements: false
+    maxPoolPreparedStatementPerConnectionSize: 0
+    connectionInitSqls: set names utf8mb4;
+
+logging:
+  level:
+    org.springframework.web: info
+    com.lxq.movie.service : debug
